@@ -4,12 +4,12 @@ with open("numbers.txt") as input_file, open("even.txt", "a") as output_even, op
 
 #read the lines and identify if:
     for line in input_file:
-        given_num = line
+        given_num = int(line)
 #it's even
         if given_num %2 == 0:
 #write to even.txt
-            output_even.write(given_num)
+            output_even.write(str(given_num))
 #its's odd
         else:
 #write to odd.txt
-            output_odd.write(given_num)
+            output_odd.write(str(given_num))
