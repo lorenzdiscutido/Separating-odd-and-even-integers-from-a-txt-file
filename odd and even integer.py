@@ -8,8 +8,8 @@ with open("numbers.txt") as input_file, open("even.txt", "a") as output_even, op
 #it's even
         if given_num %2 == 0:
 #write to even.txt
-            output_even.write(str(given_num))
+            output_even.write(str(given_num) + "\n")
 #its's odd
         else:
 #write to odd.txt
-            output_odd.write(str(given_num))
+            output_odd.write(str(given_num) + "\n")
