@@ -12,4 +12,4 @@ with open("numbers.txt") as input_file, open("even.txt", "a") as output_even, op
 #its's odd
         else:
 #write to odd.txt
-            output_odd
+            output_odd.write(given_num)
